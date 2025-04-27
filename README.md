@@ -27,7 +27,7 @@ Las variables eliminadas por indicación del documento son:
 *   Churn Score
 *   Churn Label
 
-Durante el proceso de data cleaning también se realizó imputación de valores faltantes y selección de características clave.
+Durante el proceso de data cleaning, también se realizó imputación de valores faltantes y selección de características clave.
 
 2. **Modelado Predictivo**
 
