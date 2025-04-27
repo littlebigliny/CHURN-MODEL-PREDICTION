@@ -4,24 +4,40 @@
 
 
 ## Descripción del Proyecto 
-![Descripcion](https://github.com/littlebigliny/CHURN-MODEL-PREDICTION/blob/main/proyectofinalgit_page-0008.jpg)
+
 En el dinámico sector de las telecomunicaciones, la pérdida de clientes, mejor conocida como **churn**, representa una significativa amenaza para la sostenibilidad financiera.  
 Este proyecto utiliza y compara **técnicas de Machine Learning** para predecir qué clientes tienen mayor probabilidad de abandonar el servicio, permitiendo a las empresas anticiparse y diseñar estrategias de retención personalizadas. Esto es de suma importancia, puesto que se ha visto que incluso pequeñas mejoras en la tasa de retención se traducen en incrementos sustanciales en ingresos. Nuestra solución ayuda a optimizar la toma de decisiones basada en datos, enfocándose en preservar el valor del cliente a largo plazo.
 Durante la lectura de nuestro proyecto, podrán palpar cómo implementar un modelo predictivo de churn **reduce costos, mejora la fidelización y maximiza ingresos de la empresa**.
+![Descripcion](https://github.com/littlebigliny/CHURN-MODEL-PREDICTION/blob/main/proyectofinalgit_page-0008.jpg)
 
 ---
 
 ## Metodología del modelado
 1. **Análisis Exploratorio de Datos (EDA)**  
-   Eliminación de columnas redundantes, imputación de valores faltantes, y selección de características clave.
+Eliminación de aquellas variables que no ofrecen comportamientos nuevos en el análisis, se eliminan también aquellas variables que no deben ser tomadas en el análisis de acuerdo a lo mencionado en el archivo 'churn_dictionary'.
 
-2. **Modelos Predictivos Utilizados**
+Las variables eliminadas por indicación del documento son:
 
-![Descripcion](https://github.com/littlebigliny/CHURN-MODEL-PREDICTION/blob/main/proyectofinalgit_page-0018.jpg)
+*   Satisfaction Score
+*   Customer Status
+*   Churn Category
+*   Churn Reason
+*   Churn Score
+*   Churn Label
+
+Durante el proceso de data cleaning también se realizó imputación de valores faltantes y selección de características clave.
+
+2. **Modelado Predictivo**
+
+Fueron utilizados los siguientes modelos predictivos:
+
    - **XGBoost**  
    - **LightGBM (LGBM)**  
    - **Regresión Logística**  
-   Todos balanceados mediante técnicas como **SMOTE** y optimizados con **GridSearchCV** o **RandomizedSearchCV**. En esta imagen, pueden apreciar el modelo escogido y sus métricas.
+
+Todos nuestros modelos de Machine Learning fueron balanceados mediante técnicas como **SMOTE** y optimizados con **GridSearchCV** o **RandomizedSearchCV**. En esta imagen, pueden apreciar el modelo escogido y sus features.
+
+![ModeladoRL](https://github.com/littlebigliny/CHURN-MODEL-PREDICTION/blob/main/proyectofinalgit_page-0018.jpg)
 
 3. **Evaluación**  
    Priorizamos **Recall** para capturar la mayor cantidad de churners posibles, minimizando el riesgo de fuga de clientes no detectados.
@@ -49,24 +65,35 @@ Con un recall de **80% para churners**, logramos anticipar la mayoría de las ba
 - Disparadores de campañas personalizadas (descuentos, llamadas, promociones).
 - Monitoreo continuo del desempeño del modelo.
 
+---
+## Límites del modelo
+
+La regresión logística asume una **relación lineal** entre las variables independientes y el logaritmo de las probabilidades. Los factores que determinan la diserción del cliente (churn) pueden interactuar de forma no lineal. Este tipo de relaciones no lineales entre variables podrían ser mejor capturadas por modelos como redes neuronales o árboles de decisión. 
+
+Así mismo, el proceso de balanceo de clases mediante técnicas como SMOTE, utilizada en este modelado, requiere **rigurosa calidad del preprocesamiento** de los datos presentes en el dataset. Si procesados de manera incorrecta, nos arriesgamos a que nuestro modelado aprenda errores o ruido, creando así muestra sintéticas poco representativas de nuestro dataset.
 
 ---
 
 ## Futuro del proyecto
-![Futuro](https://github.com/littlebigliny/CHURN-MODEL-PREDICTION/blob/main/proyectofinalgit_page-0041.jpg)
 
 Nuestro equipo propone:
-- Reentrenamiento trimestral del modelo para adaptarse a nuevas dinámicas del cliente pues, como sabemos, los datos no siempre son lineares en el tiempo.
-- Incorporación de nuevas variables de comportamiento y satisfacción.
-- Desarrollo de nuevos modelos sensibles al costo para maximizar el retorno económico.
-
+- **Reentrenamiento trimestral** del modelo para adaptarse a nuevas dinámicas del cliente pues, como sabemos, los datos no siempre son lineares en el tiempo.
+- Incorporación de **nuevas variables** de comportamiento y satisfacción.
+- Desarrollo de nuevos **modelos sensibles al costo** para maximizar el retorno económico.
+- 
+![Futuro](https://github.com/littlebigliny/CHURN-MODEL-PREDICTION/blob/main/proyectofinalgit_page-0041.jpg)
 ---
 
 
+## ** Conclusiones y recomendaciones **
 
-## ** Conclusión **
-![Conclusion](https://github.com/littlebigliny/CHURN-MODEL-PREDICTION/blob/main/proyectofinalgit_page-0039.jpg)
+Se recomiendan 3 puntos cardinales:
+* Integración con campañas personalizadas
+* Comparación de múltiples modelos para optimizar su funcionalidad
+* Preprocesamiento riguroso de los datos
+
 **CHURN MODEL PREDICTION** es un modelo que no sólo identifica clientes en riesgo de cometer churn, su fin principal, sino que también se convierte en una herramienta estratégica para fidelizar usuarios y asegurar la competitividad de la empresa en un mercado cada vez más exigente.
+La retención de nuestros clientes debe ser prioritaria, enfocándose en estrategias de fidelización temprana y ofertas personalizadas que reduzcan la percepción del costo y aumenten su compromiso.
 
 ---
 
