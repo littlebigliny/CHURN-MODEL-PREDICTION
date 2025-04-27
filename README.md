@@ -7,6 +7,7 @@
 
 En el dinámico sector de las telecomunicaciones, la pérdida de clientes, mejor conocida como **churn**, representa una significativa amenaza para la sostenibilidad financiera.  
 Este proyecto utiliza y compara **técnicas de Machine Learning** para predecir qué clientes tienen mayor probabilidad de abandonar el servicio, permitiendo a las empresas anticiparse y diseñar estrategias de retención personalizadas. Esto es de suma importancia, puesto que se ha visto que incluso pequeñas mejoras en la tasa de retención se traducen en incrementos sustanciales en ingresos. Nuestra solución ayuda a optimizar la toma de decisiones basada en datos, enfocándose en preservar el valor del cliente a largo plazo.
+
 Durante la lectura de nuestro proyecto, podrán palpar cómo implementar un modelo predictivo de churn **reduce costos, mejora la fidelización y maximiza ingresos de la empresa**.
 
 ![Descripcion](https://github.com/littlebigliny/CHURN-MODEL-PREDICTION/blob/main/proyectofinalgit_page-0008.jpg)
