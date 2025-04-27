@@ -8,6 +8,7 @@
 En el dinámico sector de las telecomunicaciones, la pérdida de clientes, mejor conocida como **churn**, representa una significativa amenaza para la sostenibilidad financiera.  
 Este proyecto utiliza y compara **técnicas de Machine Learning** para predecir qué clientes tienen mayor probabilidad de abandonar el servicio, permitiendo a las empresas anticiparse y diseñar estrategias de retención personalizadas. Esto es de suma importancia, puesto que se ha visto que incluso pequeñas mejoras en la tasa de retención se traducen en incrementos sustanciales en ingresos. Nuestra solución ayuda a optimizar la toma de decisiones basada en datos, enfocándose en preservar el valor del cliente a largo plazo.
 Durante la lectura de nuestro proyecto, podrán palpar cómo implementar un modelo predictivo de churn **reduce costos, mejora la fidelización y maximiza ingresos de la empresa**.
+
 ![Descripcion](https://github.com/littlebigliny/CHURN-MODEL-PREDICTION/blob/main/proyectofinalgit_page-0008.jpg)
 
 ---
@@ -45,7 +46,6 @@ Todos nuestros modelos de Machine Learning fueron balanceados mediante técnicas
 ---
 
 ## Resultados
-![Resultados](https://github.com/littlebigliny/CHURN-MODEL-PREDICTION/blob/main/proyectofinalgit_page-0020.jpg)
 
 **Impacto Económico Estimado**  
 - XGBoost: Ahorro neto de **$34,000**  
@@ -56,14 +56,18 @@ Con un recall de **80% para churners**, logramos anticipar la mayoría de las ba
 
 > *"Cada cliente salvado es una victoria estratégica para el negocio."*
 
+![Resultados](https://github.com/littlebigliny/CHURN-MODEL-PREDICTION/blob/main/proyectofinalgit_page-0020.jpg)
+
 ---
 
 ## Implementación en el Negocio
-![Implementacion](https://github.com/littlebigliny/CHURN-MODEL-PREDICTION/blob/main/proyectofinalgit_page-0034.jpg)
+
 - Integración del modelo en sistemas **CRM** para monitoreo semanal del comportamiento de nuestros clientes.
 - Clasificación automática de clientes en riesgo.
 - Disparadores de campañas personalizadas (descuentos, llamadas, promociones).
 - Monitoreo continuo del desempeño del modelo.
+
+![Implementacion](https://github.com/littlebigliny/CHURN-MODEL-PREDICTION/blob/main/proyectofinalgit_page-0034.jpg)
 
 ---
 ## Límites del modelo
