@@ -75,7 +75,7 @@ Con un recall de **80% para churners**, logramos anticipar la mayoría de las ba
 
 La regresión logística asume una **relación lineal** entre las variables independientes y el logaritmo de las probabilidades. Los factores que determinan la diserción del cliente (churn) pueden interactuar de forma no lineal. Este tipo de relaciones no lineales entre variables podrían ser mejor capturadas por modelos como redes neuronales o árboles de decisión. 
 
-Así mismo, el proceso de balanceo de clases mediante técnicas como SMOTE, utilizada en este modelado, requiere **rigurosa calidad del preprocesamiento** de los datos presentes en el dataset. Si procesados de manera incorrecta, nos arriesgamos a que nuestro modelado aprenda errores o ruido, creando así muestra sintéticas poco representativas de nuestro dataset.
+Así mismo, el proceso de balanceo de clases mediante técnicas como SMOTE, utilizada en este modelado, requiere una **rigurosa calidad del preprocesamiento** de los datos presentes en el dataset. Si procesados de manera incorrecta, nos arriesgamos a que nuestro modelado aprenda errores o ruido, creando así muestra sintéticas poco representativas de nuestro dataset.
 
 ---
 
