@@ -42,22 +42,22 @@ Todos nuestros modelos de Machine Learning fueron balanceados mediante técnicas
 ![ModeladoRL](https://github.com/littlebigliny/CHURN-MODEL-PREDICTION/blob/main/proyectofinalgit_page-0018.jpg)
 
 3. **Evaluación**  
-   Priorizamos **Recall** para capturar la mayor cantidad de churners posibles, minimizando el riesgo de fuga de clientes no detectados.
+   Priorizamos la métrica de evaluación **Recall** para poder detectar la mayor cantidad de churners posibles, minimizando el riesgo de fuga de clientes no detectados.
+   Esta decisión fue también tomada en base a muchos estudios que priorizan esta variable durante las predicciones de churn (Customer churn prediction - Francisco Lucio S. Bustamante, Customer churn prediction - Classification Models in Machine Learning)
 
 ---
 
 ## Resultados
 
 **Impacto Económico Estimado**  
-- XGBoost: Ahorro neto de **$34,000**  
-- LightGBM: Ahorro neto de **$234,200**  
-- Regresión Logística: Ahorro neto de **$272,400**
+- **XGBoost**: Ahorro neto de **$34,000**  
+- **LightGBM**: Ahorro neto de **$234,200**  
+- **Regresión Logística**: Ahorro neto de **$272,400**
 
 Con un recall de **80% para churners**, logramos anticipar la mayoría de las bajas, generando oportunidades de intervención proactiva.
 
 > *"Cada cliente salvado es una victoria estratégica para el negocio."*
 
-![Resultados](https://github.com/littlebigliny/CHURN-MODEL-PREDICTION/blob/main/proyectofinalgit_page-0020.jpg)
 
 ---
 
