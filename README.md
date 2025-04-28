@@ -91,7 +91,7 @@ Nuestro equipo propone:
 ---
 
 
-## ** Conclusiones y recomendaciones **
+##  Conclusiones y recomendaciones 
 
 Se recomiendan 3 puntos cardinales:
 * Integración con campañas personalizadas
