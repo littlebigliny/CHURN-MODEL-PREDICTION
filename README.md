@@ -43,7 +43,13 @@ Todos nuestros modelos de Machine Learning fueron balanceados mediante técnicas
 
 3. **Evaluación**  
    Priorizamos la métrica de evaluación **Recall** para poder detectar la mayor cantidad de churners posibles, minimizando el riesgo de fuga de clientes no detectados.
-   Esta decisión fue también tomada en base a muchos estudios que priorizan esta variable durante las predicciones de churn (Customer churn prediction - Francisco Lucio S. Bustamante, Customer churn prediction - Classification Models in Machine Learning)
+   Esta decisión fue también tomada en base a muchos estudios que priorizan esta variable durante las predicciones de churn:
+
+```bash
+Customer churn prediction - Francisco Lucio S. Bustamante, 
+Customer churn prediction - Classification Models in Machine Learning
+```
+   
 
 ---
 
