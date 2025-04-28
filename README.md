@@ -98,8 +98,9 @@ Se recomiendan 3 puntos cardinales:
 * Comparación de múltiples modelos para optimizar su funcionalidad
 * Preprocesamiento riguroso de los datos
 
-**CHURN MODEL PREDICTION** es un modelo que no sólo identifica clientes en riesgo de cometer churn, su fin principal, sino que también se convierte en una herramienta estratégica para fidelizar usuarios y asegurar la competitividad de la empresa en un mercado cada vez más exigente.
-La retención de nuestros clientes debe ser prioritaria, enfocándose en estrategias de fidelización temprana y ofertas personalizadas que reduzcan la percepción del costo y aumenten su compromiso.
+
+En conclusión, **CHURN MODEL PREDICTION** es un modelo que no sólo identifica clientes en riesgo de cometer churn, su fin principal, sino que también se convierte en una herramienta estratégica para fidelizar usuarios y asegurar la competitividad de la empresa en un mercado cada vez más exigente.
+La retención de nuestros clientes debe ser prioritaria, enfocándonos en estrategias de fidelización temprana y ofertas personalizadas que reduzcan la percepción del costo y aumenten su compromiso.
 
 ---
 
