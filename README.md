@@ -85,8 +85,9 @@ Nuestro equipo propone:
 - **Reentrenamiento trimestral** del modelo para adaptarse a nuevas dinámicas del cliente pues, como sabemos, los datos no siempre son lineares en el tiempo.
 - Incorporación de **nuevas variables** de comportamiento y satisfacción.
 - Desarrollo de nuevos **modelos sensibles al costo** para maximizar el retorno económico.
-- 
+  
 ![Futuro](https://github.com/littlebigliny/CHURN-MODEL-PREDICTION/blob/main/proyectofinalgit_page-0041.jpg)
+
 ---
 
 
